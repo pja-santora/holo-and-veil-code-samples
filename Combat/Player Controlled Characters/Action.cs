@@ -1,4 +1,6 @@
-﻿using System;
+// Base class representing Actions used by player controlled characters during combat.
+
+using System;
 
 [Serializable]
 public class Action
@@ -8,10 +10,11 @@ public class Action
     public enum Side { player, enemy, all }
     public Side _side;
 
+    // which actors the action affects
     public enum Target {
-        /* player */ self, both,
-        /* either */ any, 
-        /* enemy  */ first_non_ceiling, any_non_ceiling, all, all_non_ceiling, all_non_air
+        /* player side */ self, both,
+        /* both sides  */ any, 
+        /* enemy side  */ first_non_ceiling, any_non_ceiling, all, all_non_ceiling, all_non_air
     }
     public Target _target;
 
