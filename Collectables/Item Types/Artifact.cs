@@ -1,4 +1,6 @@
-﻿using System;
+// Artifacts are Items that can be sold to shops for a high price
+
+using System;
 
 [Serializable]
 public class Artifact : Item
