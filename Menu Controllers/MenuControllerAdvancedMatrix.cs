@@ -1,4 +1,9 @@
-﻿using UnityEngine;
+// Inherits from MenuControllerScrollable.
+// Allows verticle and horizontal movement. Can navigate menus with multiple rows and columns.
+
+// Also allows for menus featuring rows and columns with different numbers of items/options in them.
+
+using UnityEngine;
 
 public class MenuControllerAdvancedMatrix : MenuControllerScrollable
 {
