@@ -2,7 +2,7 @@
 // Battle characters are instantiated based on parameters set by the player before battle.
 // Thus, BattleCharacters are set at the start of battle, not in the inspector.
 
-// Stores a characters's stats and handles various tasks like adjusting stats (life, ATK, DEF) and applying status effects.
+// Stores a character's stats and handles various tasks like adjusting stats (life, ATK, DEF) and applying status effects.
 
 using System.Collections.Generic;
 using System.Linq;
