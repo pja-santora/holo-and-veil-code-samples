@@ -2,7 +2,7 @@
 // Stores relevant information used during combat.
 
 // SetCanSelect() checks to make sure an action present in a character's BattleMenu is useable
-// based on the character's energy (like MP, needed to use certain actions) and 
+// based on the character's energy (like MP, certain actions cost energy to use) and 
 // the quality of the enemies present (for example, some attacks can only target "grounded" enemies. See Enemy.cs)
 
 using System.Collections.Generic;
