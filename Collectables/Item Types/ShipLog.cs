@@ -1,4 +1,6 @@
-﻿using System;
+// Ship Logs are Items that provide a readable passage, revealing details about the history of the world
+
+using System;
 
 [Serializable]
 public class ShipLog : Item
