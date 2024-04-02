@@ -1,4 +1,8 @@
-﻿using UnityEngine;
+// ItemObject is attached to Overworld objects that the player may interact with during exploration
+// Parameters are set to match a certain Item.
+// When the player interacts with an ItemObeject, the corresponding item is added to their inventory.
+
+using UnityEngine;
 using System.Collections.Generic;
 
 public class ItemObject : MonoBehaviour
