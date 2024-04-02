@@ -1,4 +1,14 @@
-﻿using System.Collections.Generic;
+// BattleMenu controls the player's battle menu while selecting an ability during combat.
+// Each BattleMenu is set at the start of battle based on the corresponding character, 
+// their useable actions, and the player's obtained items.
+
+// Update() listens to the corresponding Menu Controller (either MenuControllerBattleMenu or MenuControllerAdvanced) 
+// to respond to Commands/Inputs entered by the player.
+
+// For example, while the player is on the Main Battle Menu (_state == State.action), if they navigate to and select "Attack", 
+// this class will respond and switch over to the Attack Battle Sub-Menu with a list of attacks available to the player.
+
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
