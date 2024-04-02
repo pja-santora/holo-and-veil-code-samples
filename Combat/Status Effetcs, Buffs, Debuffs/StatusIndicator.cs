@@ -1,4 +1,7 @@
-﻿using UnityEngine;
+// Visual representation of status effects during combat
+// Instantiated and set when a status effect is applied to an actor (character or enemy)
+
+using UnityEngine;
 using UnityEngine.UI;
 
 public class StatusIndicator : MonoBehaviour
