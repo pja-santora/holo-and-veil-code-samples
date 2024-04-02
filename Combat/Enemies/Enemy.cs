@@ -1,4 +1,8 @@
-﻿using System.Collections.Generic;
+// The main Enemy class that imbues functionality into enemies during combat.
+// Each enemy type is constant, thus parameters are set in the inspector.
+// Handles various tasks like adjusting stats (life, atk, def) and applying status effects.
+
+using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
