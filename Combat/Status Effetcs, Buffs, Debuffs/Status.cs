@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+// Base Class for various status effects, buffs, and debuffs. (See SubType below) 
+
+using UnityEngine;
 
 [System.Serializable]
 public class Status
@@ -31,7 +33,10 @@ public class Status
     }
     public SubType sub_type;
 
+    // how many turns does it last
     public int turn_count;
+
+    // numerically representation of the effect
     public int _value;
 
     public Status()
