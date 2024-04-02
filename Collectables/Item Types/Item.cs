@@ -1,4 +1,6 @@
-﻿using System;
+// Base Class for all Item Types
+
+using System;
 
 [Serializable]
 public class Item
