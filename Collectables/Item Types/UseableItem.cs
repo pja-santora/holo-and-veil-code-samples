@@ -1,4 +1,8 @@
-﻿using System;
+// Useable Items are the most important Item Type.
+// They are one-time-use Items that have various in-combat effects like healing the player, or damaging enemies.
+// Some are useable within the pause menu.
+
+using System;
 
 [Serializable]
 public class UseableItem : Item
