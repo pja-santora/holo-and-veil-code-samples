@@ -1,4 +1,6 @@
-﻿using System;
+// Constructs Dialog (a conversation) using a series (or array) of Proses.
+
+using System;
 using UnityEngine;
 
 [Serializable]
