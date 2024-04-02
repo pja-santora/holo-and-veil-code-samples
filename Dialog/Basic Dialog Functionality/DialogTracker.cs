@@ -1,4 +1,9 @@
-﻿using System.Collections.Generic;
+// Each NPC has multiple Dialog sequences that are unlocked and/or removed throughout the game.
+
+// DialogTracker is a Database that stores an index for each NPC representing the Dialog sequence 
+// the player will be shown when interacting with that NPC.
+
+using System.Collections.Generic;
 
 public class DialogTracker
 { 
