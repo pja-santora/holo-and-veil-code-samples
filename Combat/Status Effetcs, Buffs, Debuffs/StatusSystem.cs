@@ -1,4 +1,7 @@
-﻿using System.Collections.Generic;
+// Handles all status effects currently present in combat.
+// Can apply or remove them from actors (characters and enemies)
+
+using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
