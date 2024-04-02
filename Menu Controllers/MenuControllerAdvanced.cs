@@ -1,5 +1,5 @@
 // Base Class for most Menu Controllers present within UIs.
-// Checks for Commands/Input from the player and adjusted the menu item/option the player is selecting
+// Checks for Commands/Input from the player and adjusted the menu item/option the player is selecting.
 
 // Communicates with many Menu architechtures and UIs within the game.
 
