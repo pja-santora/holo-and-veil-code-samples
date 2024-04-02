@@ -1,4 +1,7 @@
-﻿using System.Collections;
+// An ItemGetScreen appears when the player picks up an ItemObject.
+// SmallItemGetScreen shows a small image of the Item the player just picked up, corresponding to the parameters set in ItemObject.
+
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
