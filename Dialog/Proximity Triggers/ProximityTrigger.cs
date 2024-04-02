@@ -4,7 +4,7 @@
 
 // When the player enters within a certain range of the object this class is attached to, 
 // an indicator icon appears. The player may then interact with that indicator to trigger an event.
-// An event could be talking to an NPC or interacting with a puzzle mechanism for example.
+// An "event" could be talking to an NPC or interacting with a puzzle mechanism for example.
 
 using UnityEngine;
 
