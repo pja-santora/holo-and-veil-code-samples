@@ -1,4 +1,7 @@
-﻿using System;
+// Basic Dialog representation.
+// A "Prose" is one section or screen of dialog
+
+using System;
 using UnityEngine;
 
 [Serializable]
