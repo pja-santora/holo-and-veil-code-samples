@@ -1,4 +1,12 @@
-﻿using System.Collections;
+// DialogSystem handles dialog events while dialog is happening.
+// DialogSystem sets UI based on the current Prose (screen) the player is viewing within a Dialog (conversation) sequence.
+
+// Update() waits for player input, then moves forward or backward within a Dialog sequence.
+
+// Some Dialog sequences have special/hidden text that will only appear visually in the Dialog sequence if 
+// the required characters are present in the player's party. (See AdjustIndexByRequirements(), AllRequiredCharactersAreInParty())
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -25,26 +33,6 @@ public class DialogSystem : MonoBehaviour
 
         enabled = false;
         On = false;
-
-        ////Prelude 1
-        //NPCDialog.Add(GameState.State._start);
-
-        //// Prelude 2
-        //GameState.current_player = "Holo";
-        //Player.Party = new List<string>() { "Holo", "Wine" };
-        //Player.SetBattleCharacters("Holo", "Wine");
-
-        //GameState.CompleteState(GameState.State.prelude_1);
-        //GameState.GAME_STATE = GameState.State.prelude_2;
-
-        //// Add Interlude 1 Dialog
-        //GameState.current_player = "Veil";
-        //Player.Party = new List<string>() { "Veil", "Wine" };
-        //Player.SetBattleCharacters("Veil", "Wine");
-        //Player.HoloTakesHisTags();
-
-        //GameState.CompleteState(GameState.State.prelude_2);
-        //GameState.GAME_STATE = GameState.State.interlude_1;
     }
 
     public void EnableCutsceneDialog(string cutscene, int index = 0)
@@ -86,7 +74,7 @@ public class DialogSystem : MonoBehaviour
         PlayerPlatformerController.Halt();
         _name = name;
 
-        // move into position
+        // move player into position
         if (offset > 0)
         {
             if (player_Xposition > npc_Xposition)
