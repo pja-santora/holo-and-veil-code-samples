@@ -1,4 +1,7 @@
-﻿using UnityEngine;
+// Inherits from MenuControllerAdvanced.
+// Same functionality as MenuControllerAdvanced, but allows use of the mouse scroll wheel as well.
+
+using UnityEngine;
 
 public class MenuControllerScrollable : MenuControllerAdvanced
 {
