@@ -1,4 +1,5 @@
-﻿
+// Inherits from Action, for player controlled character attacks.
+
 [System.Serializable]
 public class Attack : Action
 {
@@ -8,6 +9,7 @@ public class Attack : Action
     // how many times the attack hits the enemy
     public int _parts;
 
+    // do this to a character's ATK to get an attack's final damage
     public enum Modifier { additive, multiplicative }
     public Modifier _modifier;
 
