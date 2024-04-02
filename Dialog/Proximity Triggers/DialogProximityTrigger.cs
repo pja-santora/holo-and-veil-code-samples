@@ -1,4 +1,10 @@
-﻿using System.Collections;
+// Proximity Trigger for Dialog Events
+// Attached to many NPCs within the game.
+
+// Same functionality as ProximityTrigger (the base class), but communicates with other classes 
+// like DialogSystem while dialog is happening, or ShopMenu while the player is on a shop menu.
+
+using System.Collections;
 using UnityEngine;
 
 public class DialogProximityTrigger : ProximityTrigger
