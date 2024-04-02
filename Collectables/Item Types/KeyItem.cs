@@ -1,4 +1,7 @@
-﻿using System;
+// Key Items are non-useable Items that remain in the players inventory
+// They serve a specific function
+
+using System;
 
 [Serializable]
 public class KeyItem : Item
