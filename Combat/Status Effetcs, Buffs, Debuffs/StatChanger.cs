@@ -1,4 +1,7 @@
-﻿using UnityEngine;
+// Visual representation of certain buffs and debuffs
+// Only present at the moment they are applied to actors (characters and enemies) during battle.
+
+using UnityEngine;
 using UnityEngine.UI;
 
 public class StatChanger : MonoBehaviour
