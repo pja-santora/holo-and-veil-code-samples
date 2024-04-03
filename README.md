@@ -1,4 +1,6 @@
 # C# Code Samples from Holo & Veil
+> [!IMPORTANT]
+> _Code base is written with C# 7._ 
 <br />
 
 ### Holo & Veil is playable on Steam!
